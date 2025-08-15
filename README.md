@@ -74,6 +74,5 @@ SQL Accuracy	0.0700	0.2400
 3.	Prompt Creation: Schema details + user query → prompt for LLaMA model.
 4.	SQL Generation: Model returns one or more candidate queries.
 5.	Validation & Execution: Query is checked for schema compliance, then executed on SQLite DB.
-6.	Result Display: Interactive table + downloadable CSV + auto-generated visualizations.
-
+6.	Result Display: SQL Query and its results in a visualization format
 
