@@ -7,23 +7,36 @@ This project develops a full-stack web application that translates natural langu
 **Objectives**
 
 •	Allow users to query databases in plain English.
+
 •	Automatically generate accurate SQL queries from natural language.
+
 •	Execute queries and display results in a clear, interactive UI.
+
 •	Detect ambiguous queries and ask clarifying questions.
+
 •	Provide schema-aware validation to ensure correctness.
 
 **📂 Dataset**
 The project uses the Spider Dataset (xlangai/spider), a large-scale cross-domain benchmark for Text-to-SQL tasks.
+
 •	Domains: Education, aviation, music, and more.
+
 •	Data format: SQLite databases with multiple tables, schema files, and query mappings.
+
 •	Includes 200 database schemas, natural language questions, and ground-truth SQL queries.
 
 **🛠 Tech Stack**
+
 •	Frontend: Streamlit (interactive UI)
+
 •	Backend: Python, SQLite, SQLAlchemy
+
 •	LLM: LLaMA 3.1 8B Instruct (fine-tuned with LoRA)
+
 •	Deployment: Ollama (local inference)
+
 •	Visualization: Plotly (dynamic charts)
+
 •	Version Control & Hosting: Hugging Face (model hosting)
 
 **🔍 Key Features**
@@ -39,6 +52,7 @@ The project uses the Spider Dataset (xlangai/spider), a large-scale cross-domain
 1.Pretraining
 •	Loaded meta-llama/Llama-3.1-8B-Instruct with 4-bit quantization for efficiency.
 •	Used Hugging Face for model hosting and retrieval.
+
 2.Fine-tuning with LoRA
 •	Fine-tuned on Spider Dataset using LoRA to train only 0.67% of model parameters.
 •	Training setup:
