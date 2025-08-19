@@ -1,4 +1,4 @@
-**Full-Stack-Agentic-Framework-for-Natural-Language-to-SQL-Translation**
+## Full-Stack-Agentic-Framework-for-Natural-Language-to-SQL-Translation
 
 **Overview**
 
